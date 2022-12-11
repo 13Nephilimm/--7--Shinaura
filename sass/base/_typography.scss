@@ -1,0 +1,140 @@
+body {
+  padding: 3rem;
+  font-family: "Lato", sans-serif;
+  color: $color-grey-dark;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  background-color: $color-grey-light-2;
+}
+
+.heading-primary {
+  color: $color-white;
+  text-transform: uppercase;
+  backface-visibility: hidden;
+  margin-bottom: 6rem;
+
+  &-main {
+    display: block;
+    font-size: 6rem;
+    font-weight: 700;
+    letter-spacing: 3.5rem;
+
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+  }
+
+  &-sub {
+    display: block;
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 8px;
+
+    animation: moveInRight 1s ease-out;
+  }
+}
+
+.about-header {
+  padding: 2.4rem;
+  font-size: 6.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5.8px;
+  background-image: linear-gradient(
+    to right,
+    $color-primary-light,
+    $color-primary-dark
+  );
+  display: inline-block;
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: all 0.3;
+
+  &:hover {
+    transform: skewY(-2deg) skewX(15deg) scale(1.1);
+    text-shadow: 0.5rem 1rem 2rem rgba($color-black, 0.2);
+  }
+}
+
+.about-text {
+  font-size: 1.8rem;
+  padding: 1.8rem 2.4rem 4.8rem 2.4rem;
+  color: $color-grey-dark-3;
+}
+
+.products-header {
+  font-size: 4.8rem;
+  color: $color-white;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1.5rem;
+  margin-left: 70rem;
+  padding: 5.8rem 4.8rem;
+}
+
+.dafiko-info {
+  color: $color-black;
+  margin-top: 2.4rem;
+
+  &-price {
+    margin-top: 0;
+    color: $color-white;
+    letter-spacing: 2px;
+    font-weight: 400;
+    background-image: linear-gradient(to right, $color-red, $color-red-light);
+  }
+
+  &-text {
+    margin-top: 0;
+    font-weight: 400;
+  }
+}
+
+.grooming-header {
+  margin-bottom: 8rem;
+  text-align: center;
+  padding: 4.8rem;
+  font-size: 4.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 5.8px;
+  background-image: linear-gradient(
+    to right,
+    $color-primary-light,
+    $color-primary-dark
+  );
+  display: inline-block;
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: all 0.3;
+
+  &:hover {
+    transform: skewY(-2deg) skewX(15deg) scale(1.1);
+    text-shadow: 0.5rem 1rem 2rem rgba($color-black, 0.2);
+  }
+}
+
+.form-header {
+  text-align: center;
+  padding: 2.4rem;
+  font-size: 3.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  background-image: linear-gradient(
+    to right,
+    $color-primary-light,
+    $color-primary-dark
+  );
+  display: inline-block;
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: all 0.3;
+
+  &:hover {
+    transform: skewY(-2deg) skewX(15deg) scale(1.1);
+    text-shadow: 0.5rem 1rem 2rem rgba($color-black, 0.2);
+  }
+}

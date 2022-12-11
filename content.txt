@@ -1,0 +1,92 @@
+************************** MAIN HEADER *****************************
+Shinaura
+if you’re not covered in dog hair, your life is empty
+
+************************** PRICES & INFO *****************************
+// Salmoil
+
+1) green salmoil: 
+Name: Salmoil - Benessere Renale
+Price: 45₾
+
+2) orange salmoil: 
+Name: Salmoil - Benessere Intestinale
+Price: 50₾
+
+3) pink salmoil: 
+Name: Salmoil - Joint Functionality
+Price: 65₾
+
+4) purple salmoil: 
+Name: Salmoil - Healthy Skin & Shiny Coat
+Price: 60₾
+
+// Monge
+
+1) 
+Name: Monge - Fresh with beef
+Price: 3.75₾
+
+2) 
+Name: Monge - Fruit with chicken and raspberry
+Price: 3.50₾
+
+3) 
+Name: Monge - VetSolution
+Price: 4.40₾
+
+4) 
+Name: Monge - Fresh with turkey
+Price: 3.75₾
+
+// Necon
+
+1) blue
+Name: Necon - No Gluten
+Text: con tacchino e riso
+Price: 65₾
+
+2) pink
+Name: Necon - No Gluten
+Text: puppy & junior - alimento completo per cuccioli
+Price: 70₾
+
+3) purple
+Name: Necon - Natural Wellness
+Text: puppy mini - turkey and rice
+Price: 70₾
+
+4) blue NT
+Name: Necon - Natural Wellness
+Text: adult mini - salmon & rice
+Price: 75₾
+
+5) cream
+Name: Necon - Natural Wellness
+Text: adult mini - turkey & rice
+Price: 70₾
+
+// Dafiko
+
+1)
+Name: Dafiko - Rollos
+Price: 14₾
+
+2)
+Name: Dafiko - Softbite
+Price: 8₾
+
+3)
+Name: Dafiko - Softbite
+Price: 8₾
+
+4)
+Name: Dafiko - Softbite
+Price: 8₾
+
+$color-primary: #55c57a;
+$color-primary-light: #7ed56f;
+$color-primary-dark: #28b485;
+$color-grey-dark: #777;
+$color-white: #fff;
+$color-black: #000;
