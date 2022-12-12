@@ -79,24 +79,25 @@ body {
 
 .about-text {
   font-size: 1.8rem;
-  padding: 1.8rem 2.4rem 4.8rem 2.4rem;
+  padding: 1.8rem 8rem 4.8rem 8rem;
   color: #333; }
 
 .products-header {
-  font-size: 4.8rem;
+  font-size: 3.6rem;
   color: #fff;
   text-decoration: underline;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1.5rem;
-  margin-left: 70rem;
-  padding: 5.8rem 4.8rem; }
+  display: flex;
+  align-self: flex-end;
+  justify-self: flex-start;
+  padding: 2rem 2.5rem; }
 
 .dafiko-info {
-  color: #000;
   margin-top: 2.4rem; }
   .dafiko-info-price {
-    margin-top: 0;
+    margin-top: 3px;
     color: #fff;
     letter-spacing: 2px;
     font-weight: 400;
@@ -104,6 +105,8 @@ body {
   .dafiko-info-text {
     margin-top: 0;
     font-weight: 400; }
+  .dafiko-info:first-child {
+    color: #fff; }
 
 .grooming-header {
   margin-bottom: 8rem;
@@ -147,16 +150,6 @@ body {
 
 .center-text {
   text-align: center; }
-
-/*************************  Below 1164px  ************************/
-@media (max-width: 1164px) {
-  .header {
-    width: 100vw; } }
-
-/*************************  Below 1020px  ************************/
-@media (max-width: 1020px) {
-  .header {
-    width: 120vw; } }
 
 .btn:link, .btn:visited {
   text-transform: uppercase;
@@ -420,7 +413,7 @@ body {
         background-color: #55c57a; }
 
 .slider {
-  width: 70%;
+  width: 50%;
   height: 58rem;
   margin: 0 auto;
   position: relative;
@@ -443,16 +436,20 @@ body {
       border-radius: 17px; }
 
 .slider-2 {
-  width: 100%;
-  height: 58rem;
+  width: 95%;
+  height: 45rem;
   margin: 0 auto;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   overflow: hidden; }
   .slider-2 .slide-2 {
     position: absolute;
     top: 0;
     width: 100%;
-    height: 58rem;
+    height: 32rem;
     border: none;
     display: flex;
     flex-direction: column;
@@ -460,14 +457,15 @@ body {
     justify-content: center;
     transition: transform 1s; }
     .slider-2 .slide-2 img {
-      width: 70%;
-      height: 70%;
+      width: 58%;
+      height: 78%;
       background-size: cover;
-      border-radius: 17px; }
+      border-radius: 17px;
+      margin-top: 8rem; }
 
 .slider-3 {
-  width: 100%;
-  height: 58rem;
+  width: 95%;
+  height: 45rem;
   margin: 0 auto;
   position: relative;
   overflow: hidden; }
@@ -475,7 +473,7 @@ body {
     position: absolute;
     top: 0;
     width: 100%;
-    height: 58rem;
+    height: 32rem;
     border: none;
     display: flex;
     flex-direction: column;
@@ -483,14 +481,15 @@ body {
     justify-content: center;
     transition: transform 1s; }
     .slider-3 .slide-3 img {
-      width: 70%;
-      height: 70%;
+      width: 58%;
+      height: 78%;
       background-size: cover;
-      border-radius: 17px; }
+      border-radius: 17px;
+      margin-top: 8rem; }
 
 .slider-4 {
-  width: 100%;
-  height: 58rem;
+  width: 95%;
+  height: 45rem;
   margin: 0 auto;
   position: relative;
   overflow: hidden; }
@@ -498,7 +497,7 @@ body {
     position: absolute;
     top: 0;
     width: 100%;
-    height: 58rem;
+    height: 32rem;
     border: none;
     display: flex;
     flex-direction: column;
@@ -506,14 +505,15 @@ body {
     justify-content: center;
     transition: transform 1s; }
     .slider-4 .slide-4 img {
-      width: 70%;
-      height: 70%;
+      width: 58%;
+      height: 78%;
       background-size: cover;
-      border-radius: 17px; }
+      border-radius: 17px;
+      margin-top: 8rem; }
 
 .slider-5 {
-  width: 100%;
-  height: 58rem;
+  width: 95%;
+  height: 45rem;
   margin: 0 auto;
   position: relative;
   overflow: hidden; }
@@ -521,7 +521,7 @@ body {
     position: absolute;
     top: 0;
     width: 100%;
-    height: 58rem;
+    height: 32rem;
     border: none;
     display: flex;
     flex-direction: column;
@@ -529,19 +529,19 @@ body {
     justify-content: center;
     transition: transform 1s; }
     .slider-5 .slide-5 img {
-      width: 70%;
-      height: 70%;
+      width: 58%;
+      height: 78%;
       background-size: cover;
-      border-radius: 17px; }
+      border-radius: 17px;
+      margin-top: 8rem; }
 
 .tabs-box {
-  padding: 1.2rem 1.2rem;
   display: flex;
   gap: 1.8rem; }
 
 .tab {
-  padding: 17px 30px;
-  border-radius: 17px;
+  padding: 15px 25px;
+  border-radius: 100px;
   border: none;
   font-size: 2.4rem;
   text-transform: uppercase;
@@ -561,11 +561,14 @@ body {
   .tab-4 {
     background-image: linear-gradient(to right, #fff, #ccc); }
 
+.container {
+  margin-top: 2.4rem; }
+
 .active-button {
   border: 3px solid #000; }
 
 .content {
-  margin-top: 3.6rem;
+  margin-top: 1rem;
   border-radius: 13px;
   display: none; }
 
@@ -574,7 +577,8 @@ body {
   color: #fff; }
 
 .content-2 {
-  background-image: linear-gradient(to right, #fff, #ccc); }
+  background-image: linear-gradient(to right, #fff, #ccc);
+  color: #000 !important; }
 
 .content-3 {
   background-image: linear-gradient(to right, #777, #333);
@@ -582,21 +586,22 @@ body {
 
 .content-4 {
   background-image: linear-gradient(to right, #fff, #ccc);
-  width: 58%; }
+  color: #000 !important; }
 
 .active {
-  display: flex; }
+  display: flex;
+  justify-content: center; }
 
 .col-1-of-3 {
   width: 85%;
-  height: 50rem; }
+  height: 58rem; }
 
 .card {
   perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative; }
   .card-side {
-    height: 50rem;
+    height: 58rem;
     transition: all 0.8s ease;
     position: absolute;
     top: 0;
@@ -946,7 +951,7 @@ body {
   align-content: center; }
 
 .section-about {
-  margin-top: 17rem;
+  margin-top: 3rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -956,16 +961,16 @@ body {
 
 .section-products {
   display: flex;
-  height: 140vh;
+  height: 100vh;
   flex-direction: column;
   align-items: center;
-  margin-top: 30rem;
-  background-image: linear-gradient(to right bottom, rgba(85, 197, 122, 0.8), rgba(40, 180, 133, 0.8));
+  margin-top: 8rem;
+  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8));
   position: relative;
   clip-path: polygon(0 11%, 100% 0, 100% 90%, 0 100%); }
 
 .section-grooming {
-  padding: 25rem 0 35rem 0;
+  padding: 13rem 0 20rem 0;
   justify-content: center; }
 
 .section-booking {
@@ -993,3 +998,159 @@ body {
   gap: 2.4rem;
   justify-items: center;
   align-content: center; }
+
+/***********************************/
+/* BELOW 1229px (Smaller Desktops) */
+/***********************************/
+@media (max-width: 1229px) {
+  .slider {
+    width: 50%;
+    height: 48rem; }
+  .about-text {
+    font-size: 1.8rem;
+    padding: 1.8rem 9.6rem 4.8rem 9.6rem; }
+  .card-side {
+    height: 48rem; }
+  .card-heading {
+    font-size: 3rem; }
+  .card-details ul li {
+    font-size: 1.4rem; } }
+
+/***********************************/
+/* BELOW 984px (Tablets) */
+/***********************************/
+@media (max-width: 984px) {
+  .slider {
+    height: 40rem; }
+  .products-header {
+    font-size: 2.8rem;
+    letter-spacing: 1rem;
+    padding: 2.5rem 3rem; }
+  .tab {
+    font-size: 2rem;
+    padding: 10px 20px; }
+  .form-header {
+    font-size: 2rem; }
+  .input {
+    font-size: 1.3rem;
+    padding: 12px 20px; }
+  .form-radio-group {
+    display: flex;
+    flex-direction: column; }
+  .form-radio-label {
+    font-size: 1.6rem;
+    cursor: pointer;
+    position: relative;
+    padding-left: 4.5rem; }
+  .form-btn {
+    font-size: 1.8rem; }
+  .row {
+    grid-template-columns: 1fr;
+    gap: 1.2rem; }
+  .col-1-of-3 {
+    width: 44%;
+    height: 38srem; }
+  .section-grooming {
+    padding: 9.6rem 0 9.6rem 0;
+    justify-content: center; }
+  .section-about {
+    margin-top: 1rem; } }
+
+/***********************************/
+/* BELOW 704px (Smaller Tablets) */
+/***********************************/
+@media (max-width: 44em) {
+  .heading-primary {
+    margin-top: 8rem; }
+  .heading-primary-main {
+    font-size: 3.6rem; }
+  .heading-primary-sub {
+    font-size: 1.2rem;
+    margin-top: 2.4rem; }
+  .slider {
+    width: 80%;
+    height: 40rem; }
+  .products-header {
+    font-size: 2rem;
+    letter-spacing: 8px; }
+  .section-products {
+    clip-path: polygon(0 3%, 100% 0, 100% 90%, 0 100%); }
+  .tab {
+    font-size: 1.6rem;
+    padding: 8px 18px; }
+  .dafiko-info {
+    font-size: 1.8rem; }
+  .col-1-of-3 {
+    width: 53%;
+    height: 38rem; }
+  .book {
+    background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9), rgba(204, 204, 204, 0.2));
+    background-size: cover;
+    border-radius: 13px;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.35);
+    height: 64rem;
+    width: 88%; }
+    .book-form {
+      width: 100%;
+      padding: 6rem; }
+  .form-radio-label {
+    margin-top: 3.6rem; }
+  .grid-2-column {
+    grid-template-columns: 1fr; }
+  .btn {
+    font-size: 1.2rem; } }
+
+/***********************************/
+/* BELOW 564px (Phones) */
+/***********************************/
+@media (max-width: 564px) {
+  .header {
+    background-image: linear-gradient(to right bottom, #7ed56f, #28b485);
+    background-size: cover; }
+  .heading-primary-main {
+    font-size: 3rem;
+    letter-spacing: 1.2rem; }
+  .heading-primary-sub {
+    font-size: 1.4rem;
+    letter-spacing: 1rem;
+    margin-top: 2.4rem; }
+  .about-header {
+    padding: 2.4rem;
+    font-size: 4rem; }
+  .grooming-header {
+    padding: 2.4rem;
+    font-size: 2.4rem; }
+  .card-heading {
+    font-size: 2.4rem; }
+  .card-details ul li {
+    font-size: 1.2rem; }
+  .col-1-of-3 {
+    width: 70%;
+    height: 48rem; } }
+
+/***********************************/
+/* BELOW 390px (iPhone 12 Pro) */
+/***********************************/
+@media (max-width: 390px) {
+  .about-text {
+    padding: 1rem 0; }
+  .col-1-of-3 {
+    width: 80%;
+    height: 20rem; }
+  .row {
+    gap: 20rem; }
+  .slider-2,
+  .slider-3,
+  .slider-4,
+  .slider-5 {
+    width: 80%; }
+  .slide-2,
+  .slide-3,
+  .slide-4,
+  .slide-5 {
+    width: 90%; }
+  .tabs-box {
+    padding: 2px; }
+  .tab {
+    font-size: 1.2rem;
+    padding: 8px 12px; } }

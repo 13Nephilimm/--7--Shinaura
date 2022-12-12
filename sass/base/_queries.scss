@@ -1,13 +1,269 @@
-/*************************  Below 1164px  ************************/
-@media (max-width: 1164px) {
-  .header {
-    width: 100vw;
+/***********************************/
+/* BELOW 1229px (Smaller Desktops) */
+/***********************************/
+
+@media (max-width: 1229px) {
+  .slider {
+    width: 50%;
+    height: 48rem;
+  }
+
+  .about-text {
+    font-size: 1.8rem;
+    padding: 1.8rem 9.6rem 4.8rem 9.6rem;
+  }
+
+  .card-side {
+    height: 48rem;
+  }
+
+  .card-heading {
+    font-size: 3rem;
+  }
+
+  .card-details {
+    ul {
+      li {
+        font-size: 1.4rem;
+      }
+    }
   }
 }
 
-/*************************  Below 1020px  ************************/
-@media (max-width: 1020px) {
+/***********************************/
+/* BELOW 984px (Tablets) */
+/***********************************/
+
+@media (max-width: 984px) {
+  .slider {
+    height: 40rem;
+  }
+
+  .products-header {
+    font-size: 2.8rem;
+    letter-spacing: 1rem;
+    padding: 2.5rem 3rem;
+  }
+
+  .tab {
+    font-size: 2rem;
+    padding: 10px 20px;
+  }
+
+  .form-header {
+    font-size: 2rem;
+  }
+
+  .input {
+    font-size: 1.3rem;
+    padding: 12px 20px;
+  }
+
+  .form-radio-group {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-radio-label {
+    font-size: 1.6rem;
+    cursor: pointer;
+    position: relative;
+    padding-left: 4.5rem;
+  }
+
+  .form-btn {
+    font-size: 1.8rem;
+  }
+
+  .row {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+
+  .col-1-of-3 {
+    width: 44%;
+    height: 38srem;
+  }
+
+  .section-grooming {
+    padding: 9.6rem 0 9.6rem 0;
+    justify-content: center;
+  }
+
+  .section-about {
+    margin-top: 1rem;
+  }
+}
+
+/***********************************/
+/* BELOW 704px (Smaller Tablets) */
+/***********************************/
+
+@media (max-width: 44em) {
+  .heading-primary {
+    margin-top: 8rem;
+  }
+
+  .heading-primary-main {
+    font-size: 3.6rem;
+  }
+
+  .heading-primary-sub {
+    font-size: 1.2rem;
+    margin-top: 2.4rem;
+  }
+
+  .slider {
+    width: 80%;
+    height: 40rem;
+  }
+
+  .products-header {
+    font-size: 2rem;
+    letter-spacing: 8px;
+  }
+
+  .section-products {
+    clip-path: polygon(0 3%, 100% 0, 100% 90%, 0 100%);
+  }
+
+  .tab {
+    font-size: 1.6rem;
+    padding: 8px 18px;
+  }
+
+  .dafiko-info {
+    font-size: 1.8rem;
+  }
+
+  .col-1-of-3 {
+    width: 53%;
+    height: 38rem;
+  }
+
+  .book {
+    background-image: linear-gradient(
+      105deg,
+      rgba($color-white, 0.9),
+      rgba($color-grey-light, 0.2)
+    );
+    background-size: cover;
+    border-radius: 13px;
+    box-shadow: 0 1.5rem 4rem rgba($color-black, 0.35);
+
+    height: 64rem;
+    width: 88%;
+
+    &-form {
+      width: 100%;
+      padding: 6rem;
+    }
+  }
+
+  .form-radio-label {
+    margin-top: 3.6rem;
+  }
+
+  .grid-2-column {
+    grid-template-columns: 1fr;
+  }
+
+  .btn {
+    font-size: 1.2rem;
+  }
+}
+
+/***********************************/
+/* BELOW 564px (Phones) */
+/***********************************/
+
+@media (max-width: 564px) {
   .header {
-    width: 120vw;
+    background-image: linear-gradient(
+      to right bottom,
+      $color-primary-light,
+      $color-primary-dark
+    );
+    background-size: cover;
+  }
+
+  .heading-primary-main {
+    font-size: 3rem;
+    letter-spacing: 1.2rem;
+  }
+
+  .heading-primary-sub {
+    font-size: 1.4rem;
+    letter-spacing: 1rem;
+    margin-top: 2.4rem;
+  }
+
+  .about-header {
+    padding: 2.4rem;
+    font-size: 4rem;
+  }
+
+  .grooming-header {
+    padding: 2.4rem;
+    font-size: 2.4rem;
+  }
+
+  .card-heading {
+    font-size: 2.4rem;
+  }
+
+  .card-details {
+    ul {
+      li {
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  .col-1-of-3 {
+    width: 70%;
+    height: 48rem;
+  }
+}
+
+/***********************************/
+/* BELOW 390px (iPhone 12 Pro) */
+/***********************************/
+
+@media (max-width: 390px) {
+  .about-text {
+    padding: 1rem 0;
+  }
+
+  .col-1-of-3 {
+    width: 80%;
+    height: 20rem;
+  }
+
+  .row {
+    gap: 20rem;
+  }
+
+  .slider-2,
+  .slider-3,
+  .slider-4,
+  .slider-5 {
+    width: 80%;
+  }
+
+  .slide-2,
+  .slide-3,
+  .slide-4,
+  .slide-5 {
+    width: 90%;
+  }
+
+  .tabs-box {
+    padding: 2px;
+  }
+
+  .tab {
+    font-size: 1.2rem;
+    padding: 8px 12px;
   }
 }

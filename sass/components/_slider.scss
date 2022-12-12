@@ -1,5 +1,5 @@
 .slider {
-  width: 70%;
+  width: 50%;
   height: 58rem;
   margin: 0 auto;
   position: relative;
@@ -30,10 +30,14 @@
 }
 
 .slider-2 {
-  width: 100%;
-  height: 58rem;
+  width: 95%;
+  height: 45rem;
   margin: 0 auto;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
   overflow: hidden;
 
@@ -41,7 +45,7 @@
     position: absolute;
     top: 0;
     width: 100%;
-    height: 58rem;
+    height: 32rem;
     border: none;
 
     display: flex;
@@ -52,17 +56,18 @@
     transition: transform 1s;
 
     img {
-      width: 70%;
-      height: 70%;
+      width: 58%;
+      height: 78%;
       background-size: cover;
       border-radius: 17px;
+      margin-top: 8rem;
     }
   }
 }
 
 .slider-3 {
-  width: 100%;
-  height: 58rem;
+  width: 95%;
+  height: 45rem;
   margin: 0 auto;
   position: relative;
 
@@ -72,7 +77,7 @@
     position: absolute;
     top: 0;
     width: 100%;
-    height: 58rem;
+    height: 32rem;
     border: none;
 
     display: flex;
@@ -83,17 +88,18 @@
     transition: transform 1s;
 
     img {
-      width: 70%;
-      height: 70%;
+      width: 58%;
+      height: 78%;
       background-size: cover;
       border-radius: 17px;
+      margin-top: 8rem;
     }
   }
 }
 
 .slider-4 {
-  width: 100%;
-  height: 58rem;
+  width: 95%;
+  height: 45rem;
   margin: 0 auto;
   position: relative;
 
@@ -103,7 +109,7 @@
     position: absolute;
     top: 0;
     width: 100%;
-    height: 58rem;
+    height: 32rem;
     border: none;
 
     display: flex;
@@ -114,17 +120,18 @@
     transition: transform 1s;
 
     img {
-      width: 70%;
-      height: 70%;
+      width: 58%;
+      height: 78%;
       background-size: cover;
       border-radius: 17px;
+      margin-top: 8rem;
     }
   }
 }
 
 .slider-5 {
-  width: 100%;
-  height: 58rem;
+  width: 95%;
+  height: 45rem;
   margin: 0 auto;
   position: relative;
 
@@ -134,7 +141,7 @@
     position: absolute;
     top: 0;
     width: 100%;
-    height: 58rem;
+    height: 32rem;
     border: none;
 
     display: flex;
@@ -145,10 +152,11 @@
     transition: transform 1s;
 
     img {
-      width: 70%;
-      height: 70%;
+      width: 58%;
+      height: 78%;
       background-size: cover;
       border-radius: 17px;
+      margin-top: 8rem;
     }
   }
 }
