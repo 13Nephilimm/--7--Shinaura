@@ -2,6 +2,8 @@
 
 Website with advance CSS, advance DOM & events, SASS and HTML
 
+NOT responsive yet! (this project is not finished)
+
 Link: https://shinaura.netlify.app/
 
 ![Screenshot (258)](https://user-images.githubusercontent.com/105174357/206910913-7366f3dd-d029-4cd9-b858-5f44aad4bbb2.png)
