@@ -1,4 +1,4 @@
-# --7--Shinaura
+# Shinaura
 
 Website with advance CSS, advance DOM & events, SASS and HTML
 
